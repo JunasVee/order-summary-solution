@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 550px;
+    width: 350px;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 10px 50px -10px rgb(200, 200, 200);
+}
+
+.title , .desc {
+    text-align: center;
+    width: 100%;
+}
+
+.desc {
+    margin-bottom: 6%;
+}
+
+.illus {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.info {
+    padding: 7% 9%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 5%;
+}
+
+p {
+    word-wrap: break-word;
+    word-break: normal;
+    color: hsl(224, 23%, 55%);
+    font-size: 0.9rem;
+}
+
+.plan {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: hsl(225, 100%, 98%);
+    border-radius: 0.4rem;
+    padding: 0 6%;
+    margin-bottom: 10%;
+}
+
+.fixed {
+    display: flex;
+    align-items: center;
+}
+
+.fixed img {
+    height: 38px;
+}
+
+.fixed-text  {
+    text-align: left;
+    padding-left: 14%;
+}
+
+.fixed h2 {
+    font-size: 0.93rem;
+    color: hsl(223, 47%, 23%);;
+}
+
+.change a {
+    font-size: 0.8rem;
+    color: blue;
+    transition: all 0.2s ease;
+}
+
+.change a:hover {
+    text-decoration: none;
+    color: hsl(256, 67%, 62%)
+}
+
+.final {
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 0.5rem;
+    border: none;
+    background: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 0 12px 20px -2px rgb(186, 204, 215);
+    font-weight: 600;
+    margin-bottom: 8%;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    background: hsl(242, 65%, 64%);
+}
+
+.cancel {
+    font-size: 0.8rem;
+    text-decoration: none;
+    width: 100%;
+    color: hsl(224, 10%, 53%);
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%,-98%);
+}
