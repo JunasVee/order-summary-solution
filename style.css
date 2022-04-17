@@ -89,7 +89,8 @@ p {
 
 .fixed h2 {
     font-size: 0.93rem;
-    color: hsl(223, 47%, 23%);;
+    color: hsl(223, 47%, 23%);
+    white-space: nowrap;
 }
 
 .change a {
